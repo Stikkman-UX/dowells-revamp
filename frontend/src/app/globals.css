@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand */
+  --color-brand: #e30613;
+  --color-brand-dark: #b8050f;
+  --color-ink: #262626;
+  --color-white: #ffffff;
+
+  /* Greys */
+  --color-grey-50: #f7f7f8;
+  --color-grey-100: #f0f0f1;
+  --color-grey-200: #e2e2e4;
+  --color-grey-300: #cbcbce;
+  --color-grey-400: #a3a3a8;
+  --color-grey-500: #7a7a80;
+  --color-grey-600: #58585d;
+  --color-grey-700: #3f3f43;
+  --color-grey-800: #2b2b2e;
+  --color-grey-900: #1a1a1c;
+
+  /* Dark surfaces */
+  --color-surface-dark: #171717;
+  --color-surface-dark-2: #1f1f1f;
+
+  /* Typography */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Radii */
+  --radius-md: 1rem; /* 16px */
+  --radius-lg: 1.5rem; /* 24px */
+  --radius-pill: 9999px;
+
+  /* Layout tokens (see .claude/skills/responsive-layout) */
+  --container-max: 96.875rem; /* 1550px @ 16px root */
+  --spacing-gutter: 1rem; /* 16px */
+  --spacing-gutter-lg: 5rem; /* 80px */
+}
+
+/*
+ * Fluid root scale — single source of truth for html font-size.
+ * Fixed 16px up to 1550px viewport width, scales linearly to 24px at 3840px,
+ * locked at 24px beyond. See .claude/skills/responsive-layout/SKILL.md.
+ */
+html {
+  font-size: clamp(16px, calc(16px + (100vw - 1550px) * (8 / 2290)), 24px);
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-ink);
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full px-4 lg:px-20;
+    max-width: var(--container-max);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

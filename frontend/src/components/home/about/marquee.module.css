@@ -1,0 +1,65 @@
+/*
+ * Pure-CSS infinite marquee: no client JS needed. The track renders the
+ * client list twice back-to-back; translateX(-50%) shifts by exactly one
+ * copy's width, producing a seamless loop. Reduced motion swaps to a
+ * static wrapped list (see @media block below).
+ */
+
+.wrapper {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 3%,
+    black 97%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 3%,
+    black 97%,
+    transparent
+  );
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 36s linear infinite;
+}
+
+.wrapper:hover .track,
+.wrapper:focus-within .track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.duplicate {
+  /* Marked separately so it can be hidden under reduced motion. */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wrapper {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .duplicate {
+    display: none;
+  }
+}

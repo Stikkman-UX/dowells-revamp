@@ -1,0 +1,960 @@
+{
+  "pages": {
+    "_global": {
+      "sections": {
+        "header": {
+          "logo": {
+            "assetId": "",
+            "alt": "Dowell's",
+            "url": "/global/header/dowells-logo.png",
+            "mimeType": "image/png",
+            "fileType": "Image",
+            "fileSize": 0
+          },
+          "logoHref": "/",
+          "navItems": [
+            {
+              "label": "Company",
+              "href": "#",
+              "showChevron": true
+            },
+            {
+              "label": "Products",
+              "href": "/products",
+              "showChevron": true
+            },
+            {
+              "label": "Industries",
+              "href": "#",
+              "showChevron": false
+            },
+            {
+              "label": "CSR & Sustainability",
+              "href": "#",
+              "showChevron": false
+            },
+            {
+              "label": "Customer Support",
+              "href": "#",
+              "showChevron": true
+            }
+          ],
+          "showSearch": true,
+          "searchHref": "#",
+          "ctaButton": {
+            "text": "Contact Us",
+            "href": "#",
+            "withIcon": false,
+            "icon": null,
+            "iconPosition": "left",
+            "openInNewTab": false
+          }
+        },
+        "footer": {
+          "newsletter": {
+            "heading": "Get product updates, publications & industry insights.",
+            "placeholder": "you@company.com",
+            "button": {
+              "text": "Subscribe",
+              "href": "#",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/global/footer/arrow-right.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "iconPosition": "right",
+              "openInNewTab": false
+            }
+          },
+          "logo": {
+            "assetId": "",
+            "alt": "Dowell's",
+            "url": "/global/footer/dowells-logo.png",
+            "mimeType": "image/png",
+            "fileType": "Image",
+            "fileSize": 0
+          },
+          "description": "A Polycab Group company. Cable accessories engineered for India's power, industrial and infrastructure sectors.",
+          "phone": "1800-267-0008 (Toll-free)",
+          "email": "support@dowells.com",
+          "socials": [
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/global/footer/social-linkedin.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "LinkedIn",
+              "href": "#"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/global/footer/social-facebook.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "Facebook",
+              "href": "#"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/global/footer/social-instagram.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "Instagram",
+              "href": "#"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/global/footer/social-youtube.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "YouTube",
+              "href": "#"
+            }
+          ],
+          "columns": [
+            {
+              "title": "Products",
+              "links": [
+                {
+                  "label": "Lugs & Connectors",
+                  "href": "#"
+                },
+                {
+                  "label": "Cable Glands",
+                  "href": "#"
+                },
+                {
+                  "label": "Ferrules",
+                  "href": "#"
+                },
+                {
+                  "label": "Terminations",
+                  "href": "#"
+                },
+                {
+                  "label": "Heat Shrink",
+                  "href": "#"
+                },
+                {
+                  "label": "Accessories",
+                  "href": "#"
+                }
+              ]
+            },
+            {
+              "title": "Industries",
+              "links": [
+                {
+                  "label": "Manufacturing",
+                  "href": "#"
+                },
+                {
+                  "label": "Infrastructure",
+                  "href": "#"
+                },
+                {
+                  "label": "Utilities",
+                  "href": "#"
+                },
+                {
+                  "label": "Renewable Energy",
+                  "href": "#"
+                },
+                {
+                  "label": "Commercial Buildings",
+                  "href": "#"
+                }
+              ]
+            },
+            {
+              "title": "Resources",
+              "links": [
+                {
+                  "label": "Catalogue",
+                  "href": "#"
+                },
+                {
+                  "label": "Datasheets",
+                  "href": "#"
+                },
+                {
+                  "label": "Installation Guides",
+                  "href": "#"
+                },
+                {
+                  "label": "Certifications",
+                  "href": "#"
+                },
+                {
+                  "label": "FAQs",
+                  "href": "#"
+                }
+              ]
+            },
+            {
+              "title": "Company",
+              "links": [
+                {
+                  "label": "About Dowells",
+                  "href": "#"
+                },
+                {
+                  "label": "Polycab Group",
+                  "href": "#"
+                },
+                {
+                  "label": "News & Press",
+                  "href": "#"
+                },
+                {
+                  "label": "Careers",
+                  "href": "#"
+                },
+                {
+                  "label": "Contact",
+                  "href": "#"
+                }
+              ]
+            }
+          ],
+          "copyright": "© 2026 Dowells Cable Accessories Ltd. All rights reserved.",
+          "legalLinks": [
+            {
+              "label": "Privacy",
+              "href": "#"
+            },
+            {
+              "label": "Terms",
+              "href": "#"
+            },
+            {
+              "label": "Cookies",
+              "href": "#"
+            },
+            {
+              "label": "Sitemap",
+              "href": "#"
+            }
+          ]
+        },
+        "catalogue": {
+          "title": "Complete Product Catalogue",
+          "caption": "2026 edition · 280 pages",
+          "file": null,
+          "button": {
+            "text": "Download PDF",
+            "href": "",
+            "withIcon": false,
+            "icon": null,
+            "iconPosition": "right",
+            "openInNewTab": true
+          }
+        }
+      }
+    },
+    "home": {
+      "seo": {
+        "title": "Cable accessories engineered in India",
+        "description": "A Polycab Group company. Lugs, glands, ferrules and connectors powering India's largest power, industrial and infrastructure projects since 1968.",
+        "canonical": "",
+        "noindex": false,
+        "ogImage": null
+      },
+      "sections": {
+        "hero": {
+          "heading": {
+            "text": "Connections that power progress.",
+            "highlight": "power"
+          },
+          "buttons": [
+            {
+              "variant": "red",
+              "text": "Find Products",
+              "href": "#",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/hero/icon-search.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            },
+            {
+              "variant": "white",
+              "text": "Find Nearest Dealer",
+              "href": "#",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/hero/icon-pin.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          ],
+          "stats": [
+            {
+              "value": "55+",
+              "label": "Years of trust"
+            },
+            {
+              "value": "250+",
+              "label": "Distributors"
+            },
+            {
+              "value": "5,000+",
+              "label": "SKUs"
+            },
+            {
+              "value": "40+",
+              "label": "Countries"
+            }
+          ],
+          "carousel": [
+            {
+              "media": {
+                "assetId": "",
+                "alt": "A Dowells technician inspecting a cable accessory on the factory floor",
+                "url": "/home/hero/slide-1-connections-that-power-progress.jpg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "poster": null
+            },
+            {
+              "media": {
+                "assetId": "",
+                "alt": "A welder working on a steel structure inside a Dowells manufacturing plant",
+                "url": "/home/hero/slide-2-manufacturing-excellence.jpg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "poster": null
+            }
+          ]
+        },
+        "about": {
+          "eyebrowLeft": "Proudly part of",
+          "partnerLogo": {
+            "assetId": "",
+            "alt": "Polycab",
+            "url": "/home/about/polycab-logo.png",
+            "mimeType": "image/png",
+            "fileType": "Image",
+            "fileSize": 0
+          },
+          "eyebrowRight": "India's #1 cable & wire company",
+          "statement": {
+            "text": "A Polycab company, engineering every connection Since 1968. Dowell’s brand is a synonym for manufacturing great products with agility and quality.",
+            "highlight": "Since 1968."
+          },
+          "button": {
+            "text": "Read our full story",
+            "href": "#",
+            "withIcon": true,
+            "icon": {
+              "assetId": "",
+              "alt": "",
+              "url": "/home/about/arrow-right.svg",
+              "mimeType": "image/svg+xml",
+              "fileType": "Image",
+              "fileSize": 0
+            },
+            "iconPosition": "right",
+            "openInNewTab": false
+          },
+          "image": {
+            "assetId": "",
+            "alt": "Team members at a Dowell's manufacturing facility",
+            "url": "/home/about/team-photo.png",
+            "mimeType": "image/png",
+            "fileType": "Image",
+            "fileSize": 0
+          },
+          "clientsCaption": "Trusted by India's largest builders & EPCs",
+          "clients": [
+            {
+              "name": "L&T"
+            },
+            {
+              "name": "Tata Power"
+            },
+            {
+              "name": "Adani"
+            },
+            {
+              "name": "NTPC"
+            },
+            {
+              "name": "Reliance"
+            },
+            {
+              "name": "Siemens"
+            },
+            {
+              "name": "ABB"
+            },
+            {
+              "name": "BHEL"
+            }
+          ]
+        },
+        "quickAccess": {
+          "heading": "What can we help you with today?",
+          "description": "One common place - to seek all key information about the brand and the products.",
+          "searchCard": {
+            "icon": {
+              "assetId": "",
+              "alt": "",
+              "url": "/home/quick-access/icon-search-card.svg",
+              "mimeType": "image/svg+xml",
+              "fileType": "Image",
+              "fileSize": 0
+            },
+            "title": "Find the right product fast.",
+            "subtitle": "5,000+ SKUs across lugs, glands, ferrules and more.",
+            "placeholder": "Search by name, SKU or spec…",
+            "buttonLabel": "Search",
+            "image": {
+              "assetId": "",
+              "alt": "",
+              "url": "/home/quick-access/search-card-bg.png",
+              "mimeType": "image/png",
+              "fileType": "Image",
+              "fileSize": 0
+            },
+            "href": "#"
+          },
+          "cards": [
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/quick-access/icon-distributor.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "title": "Find a Distributor",
+              "subtitle": "250+ outlets nationwide.",
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/quick-access/distributor-pin.png",
+                "mimeType": "image/png",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "href": "#"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/quick-access/icon-download.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "title": "Download Centre",
+              "subtitle": "2026 edition · PDF · 18 MB",
+              "image": null,
+              "href": "#"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/quick-access/icon-browse-industries.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "title": "Browse Industries",
+              "subtitle": "By sector & application",
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/quick-access/browse-industries-bg.png",
+                "mimeType": "image/png",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "href": "#"
+            }
+          ]
+        },
+        "industries": {
+          "heading": "Curated for the industries we serve.",
+          "slides": [
+            {
+              "image": {
+                "assetId": "",
+                "alt": "A close-up of a residential electrical socket and switch installation",
+                "url": "/home/industries/residential-electricals.jpg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "title": "Residential Electricals",
+              "description": "For homes, apartments, and residential projects that need safe, reliable, and long-lasting electrical connections. Explore products built for everyday performance and easy installation.",
+              "href": "#"
+            },
+            {
+              "image": {
+                "assetId": "",
+                "alt": "Rows of electrical switchgear panels inside a commercial building",
+                "url": "/home/industries/commercial-buildings.jpg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "title": "Commercial Buildings",
+              "description": "Durable wiring accessories for offices, retail spaces and hospitality projects that demand dependable performance at scale.",
+              "href": "#"
+            },
+            {
+              "image": {
+                "assetId": "",
+                "alt": "Heavy industrial piping and valve infrastructure",
+                "url": "/home/industries/infrastructure.jpg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "title": "Infrastructure",
+              "description": "Heavy-duty connectors and terminations engineered for highways, metros, airports and large-scale public infrastructure.",
+              "href": "#"
+            },
+            {
+              "image": {
+                "assetId": "",
+                "alt": "An overhead view of a steel manufacturing plant production line",
+                "url": "/home/industries/industrial-manufacturing.jpg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "title": "Industrial Manufacturing",
+              "description": "Precision-engineered accessories built to withstand the demands of heavy manufacturing and process industries, keeping production lines running around the clock.",
+              "href": "#"
+            }
+          ]
+        },
+        "productCategories": {
+          "heading": "Our Product Categories",
+          "categories": [
+            {
+              "name": "Cable Terminals",
+              "countLabel": "2,300+ SKUs",
+              "badge": "320+ products",
+              "description": "Robust solutions for heavy-duty plants, OEM lines and process automation environments.",
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/product-categories/cable-terminals.png",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "button": {
+                "text": "Explore products",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/product-categories/icon-explore-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            },
+            {
+              "name": "Crimping Tools",
+              "countLabel": "180+ products",
+              "badge": "180+ products",
+              "description": "Precision hand and hydraulic crimpers engineered for consistent, code-compliant terminations.",
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/product-categories/crimping-tools.jpeg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "button": {
+                "text": "Explore products",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/product-categories/icon-explore-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            },
+            {
+              "name": "Cable Glands",
+              "countLabel": "240+ products",
+              "badge": "240+ products",
+              "description": "DISCOM-grade lugs, terminations and joints for LT and HT distribution networks.",
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/product-categories/cable-glands.png",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "button": {
+                "text": "Explore products",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/product-categories/icon-explore-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            },
+            {
+              "name": "Pre-Insulated",
+              "countLabel": "90+ products",
+              "badge": "90+ products",
+              "description": "Solar-rated, UV-stable accessories engineered for utility-scale renewable plants.",
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/product-categories/pre-insulated.jpeg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "button": {
+                "text": "Explore products",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/product-categories/icon-explore-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            },
+            {
+              "name": "Bi-Metallic",
+              "countLabel": "150+ products",
+              "badge": "150+ products",
+              "description": "Copper-to-aluminium connectors engineered to eliminate galvanic corrosion at the joint.",
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/product-categories/bi-metallic.jpeg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "button": {
+                "text": "Explore products",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/product-categories/icon-explore-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            }
+          ]
+        },
+        "impact": {
+          "heading": "Dowell’s impact across sectors.",
+          "button": {
+            "text": "All projects",
+            "href": "#",
+            "withIcon": true,
+            "icon": {
+              "assetId": "",
+              "alt": "",
+              "url": "/home/impact/icon-all-projects-arrow.svg",
+              "mimeType": "image/svg+xml",
+              "fileType": "Image",
+              "fileSize": 0
+            },
+            "iconPosition": "right",
+            "openInNewTab": false
+          },
+          "cards": [
+            {
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/impact/expressway-lighting.png",
+                "mimeType": "image/png",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "tag": "Case Study",
+              "title": "Powering India's longest expressway lighting network",
+              "meta": "Infrastructure · 2025",
+              "href": "#"
+            },
+            {
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/impact/switchgear-assembly.png",
+                "mimeType": "image/png",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "tag": "In Action",
+              "title": "Switchgear assembly with our crimp-free ferrules",
+              "meta": "",
+              "href": "#"
+            },
+            {
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/impact/solar-farm.png",
+                "mimeType": "image/png",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "tag": "On Site",
+              "title": "1.2 GW solar farm — terminated end-to-end with Dowells",
+              "meta": "",
+              "href": "#"
+            }
+          ]
+        },
+        "trust": {
+          "eyebrow": "Who we are",
+          "heading": "Decades of cable accessories, made in India.",
+          "description": "As part of the Polycab group, Dowells supplies the lugs, glands, ferrules and connectors behind India's largest power, industrial and infrastructure projects — backed by rigorous testing labs and on-ground support.",
+          "certifications": [
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/trust/icon-iso.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "ISO 9001:2015"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/trust/icon-bis.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "BIS Certified"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/trust/icon-rohs.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "RoHS Compliant"
+            },
+            {
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/trust/icon-made-in-india.svg",
+                "mimeType": "image/svg+xml",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "label": "Made in India"
+            }
+          ],
+          "stats": [
+            {
+              "value": "55+",
+              "label": "Years of experience"
+            },
+            {
+              "value": "12K+",
+              "label": "Distributor network"
+            },
+            {
+              "value": "5,000+",
+              "label": "SKUs in catalogue"
+            },
+            {
+              "value": "40+",
+              "label": "Countries served"
+            }
+          ],
+          "image": {
+            "assetId": "",
+            "alt": "Electricity transmission towers at sunset",
+            "url": "/home/trust/side-transmission-towers.jpg",
+            "mimeType": "image/jpeg",
+            "fileType": "Image",
+            "fileSize": 0
+          }
+        },
+        "insights": {
+          "heading": "Latest news, Publications and more from Dowell’s",
+          "allLabel": "All",
+          "filterTags": [
+            "Whitepaper",
+            "News"
+          ],
+          "articles": [
+            {
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/insights/copper-lug.png",
+                "mimeType": "image/png",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "tag": "Guide",
+              "dateLabel": "Apr 2026",
+              "title": "How to size a copper lug correctly — a 5-minute primer",
+              "button": {
+                "text": "Read article",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/insights/icon-read-article-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            },
+            {
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/insights/plant-capacity.jpeg",
+                "mimeType": "image/jpeg",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "tag": "News",
+              "dateLabel": "Mar 2026",
+              "title": "Dowells expands Halol plant: 30% added capacity for 2026",
+              "button": {
+                "text": "Read article",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/insights/icon-read-article-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            },
+            {
+              "image": {
+                "assetId": "",
+                "alt": "",
+                "url": "/home/insights/panel-technician.png",
+                "mimeType": "image/png",
+                "fileType": "Image",
+                "fileSize": 0
+              },
+              "tag": "Whitepaper",
+              "dateLabel": "Feb 2026",
+              "title": "Why crimp quality is the #1 cause of LT panel failures",
+              "button": {
+                "text": "Read article",
+                "href": "#",
+                "withIcon": true,
+                "icon": {
+                  "assetId": "",
+                  "alt": "",
+                  "url": "/home/insights/icon-read-article-arrow.svg",
+                  "mimeType": "image/svg+xml",
+                  "fileType": "Image",
+                  "fileSize": 0
+                },
+                "iconPosition": "right",
+                "openInNewTab": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

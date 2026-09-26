@@ -1,0 +1,51 @@
+{
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "Dowells — Home",
+        "description": "Sample home page SEO description used to document/exercise the seed content-file format.",
+        "canonical": "/",
+        "noindex": false,
+        "ogImage": {
+          "assetId": "",
+          "alt": "Dowells hero image",
+          "url": "/home/hero/slide-1.png",
+          "mimeType": "image/png",
+          "fileType": "Image"
+        }
+      },
+      "sections": {
+        "hero": {
+          "heading": {
+            "text": "Powering India's infrastructure",
+            "highlight": "infrastructure"
+          },
+          "buttons": [
+            {
+              "variant": "red",
+              "text": "Find Products",
+              "href": "/products",
+              "withIcon": false,
+              "icon": null,
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          ],
+          "stats": [{ "value": "55+", "label": "Years of trust" }],
+          "carousel": [
+            {
+              "media": {
+                "assetId": "",
+                "alt": "Dowells hero image",
+                "url": "/home/hero/slide-1.png",
+                "mimeType": "image/png",
+                "fileType": "Image"
+              },
+              "poster": null
+            }
+          ]
+        }
+      }
+    }
+  }
+}

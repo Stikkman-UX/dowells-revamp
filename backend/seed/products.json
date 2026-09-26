@@ -1,0 +1,1253 @@
+{
+  "categories": [
+    {
+      "name": "Cable Terminals",
+      "slug": "cable-terminals",
+      "description": "Copper tube terminals and lugs engineered for secure, low-resistance connections across industrial, utility and renewable installations.",
+      "products": [
+        {
+          "name": "Copper Tube Terminals Long Barrel",
+          "slug": "copper-tube-terminals-long-barrel",
+          "subtitle": "Long Barrel",
+          "isPublished": true,
+          "seo": {
+            "title": "Copper Tube Terminals Long Barrel",
+            "description": "Long barrel copper tube terminals engineered for secure, low-resistance connections in chemical and EM-noisy industrial environments.",
+            "canonical": "",
+            "noindex": false,
+            "ogImage": {
+              "assetId": "",
+              "alt": "Copper Tube Terminals Long Barrel product image",
+              "url": "https://dummyimage.com/1200x630/ececec/9a9a9a.png&text=Copper%20Tube%20Terminal%20Long%20Barrel"
+            }
+          },
+          "hero": {
+            "image": {
+              "assetId": "",
+              "alt": "Copper Tube Terminals Long Barrel hero image",
+              "url": "https://dummyimage.com/900x600/ececec/9a9a9a.png&text=Copper%20Tube%20Terminal%20Long%20Barrel"
+            },
+            "description": "Multicore control and instrumentation constructions with shielding and jacketing options for chemical or EM-noisy environments; available in high-core counts and varied pair configurations.",
+            "keySpecs": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Voltage Rating icon",
+                  "url": "/home/hero/icon-arrow-right.svg"
+                },
+                "label": "Voltage Rating",
+                "value": "Up to 1.1 kV"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Conductor icon",
+                  "url": "/home/hero/icon-pin.svg"
+                },
+                "label": "Conductor",
+                "value": "Annealed Copper"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Insulation icon",
+                  "url": "/home/hero/icon-search.svg"
+                },
+                "label": "Insulation",
+                "value": "PVC / XLPE"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Shielding icon",
+                  "url": "/home/quick-access/icon-download.svg"
+                },
+                "label": "Shielding",
+                "value": "Individual / Overall Screening Options"
+              }
+            ],
+            "idealFor": [
+              "Oil & gas",
+              "Petrochemicals",
+              "Power plants",
+              "Industrial automation systems"
+            ],
+            "primaryButton": {
+              "text": "Find Dealer",
+              "href": "/dealers",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-pin.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            },
+            "secondaryButton": {
+              "text": "Contact Sales",
+              "href": "/contact",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-phone.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          },
+          "downloads": {
+            "heading": "Everything your engineers need.",
+            "items": [
+              {
+                "title": "Technical Datasheet",
+                "file": {
+                  "assetId": "",
+                  "alt": "Technical Datasheet",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              },
+              {
+                "title": "Installation Guide",
+                "file": {
+                  "assetId": "",
+                  "alt": "Installation Guide",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              },
+              {
+                "title": "BIS Test Report",
+                "file": {
+                  "assetId": "",
+                  "alt": "BIS Test Report",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              }
+            ]
+          },
+          "specs": {
+            "heading": "Built to perform.",
+            "items": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Voltage Grade icon",
+                  "url": "/products/check.svg"
+                },
+                "label": "Voltage Grade",
+                "value": "1100 V / 3.3 kV"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Conductor icon",
+                  "url": "/products/file.svg"
+                },
+                "label": "Conductor",
+                "value": "Annealed Copper (Class 2)"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Insulation icon",
+                  "url": "/products/chevron.svg"
+                },
+                "label": "Insulation",
+                "value": "FR-XLPE"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Temperature icon",
+                  "url": "/products/chevron-down.svg"
+                },
+                "label": "Temperature",
+                "value": "90°C continuous · 250°C short"
+              }
+            ]
+          },
+          "deployed": {
+            "heading": "Where this product is deployed.",
+            "items": [
+              {
+                "title": "Industrial Installations",
+                "description": "Heavy-duty solutions designed for factories, plants, and industrial environments where durability, load handling, and operational reliability matter most.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Industrial installation using copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Industrial%20Installations"
+                }
+              },
+              {
+                "title": "Utilities",
+                "description": "Dependable terminations for power distribution and substation infrastructure serving utility networks.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Utility installation using copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Utilities"
+                }
+              },
+              {
+                "title": "Renewables",
+                "description": "Corrosion-resistant terminations for solar and wind installations operating in exposed, variable conditions.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Renewable energy installation using copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Renewables"
+                }
+              },
+              {
+                "title": "Infrastructure",
+                "description": "Long-life connections for transport, water and public infrastructure projects with demanding compliance requirements.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Infrastructure installation using copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Infrastructure"
+                }
+              }
+            ]
+          },
+          "safety": {
+            "heading": "Engineered for safety and longevity.",
+            "bullets": [
+              "Annealed bare copper conductor for high conductivity",
+              "FR-XLPE insulation for superior thermal performance",
+              "Compliant with IS 7098 and IEC 60502",
+              "Excellent mechanical strength & flexibility",
+              "Long service life under demanding conditions"
+            ],
+            "image": {
+              "assetId": "",
+              "alt": "Safety testing of copper tube terminals",
+              "url": "https://dummyimage.com/720x480/ececec/9a9a9a.png&text=Safety%20Tested"
+            },
+            "certifications": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "ISO 9001:2015 logo",
+                  "url": "/home/trust/icon-iso.svg"
+                },
+                "label": "ISO 9001:2015"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "BIS Certified logo",
+                  "url": "/home/trust/icon-bis.svg"
+                },
+                "label": "BIS Certified"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "RoHS Compliant logo",
+                  "url": "/home/trust/icon-rohs.svg"
+                },
+                "label": "RoHS Compliant"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Copper Tube Terminal Heavy Duty",
+          "slug": "copper-tube-terminal-heavy-duty",
+          "subtitle": "Heavy Duty",
+          "isPublished": true,
+          "seo": {
+            "title": "Copper Tube Terminal Heavy Duty",
+            "description": "Heavy duty copper tube terminals built for high-current industrial connections that demand maximum mechanical strength.",
+            "canonical": "",
+            "noindex": false,
+            "ogImage": {
+              "assetId": "",
+              "alt": "Copper Tube Terminal Heavy Duty product image",
+              "url": "https://dummyimage.com/1200x630/ececec/9a9a9a.png&text=Copper%20Tube%20Terminal%20Heavy%20Duty"
+            }
+          },
+          "hero": {
+            "image": {
+              "assetId": "",
+              "alt": "Copper Tube Terminal Heavy Duty hero image",
+              "url": "https://dummyimage.com/900x600/ececec/9a9a9a.png&text=Copper%20Tube%20Terminal%20Heavy%20Duty"
+            },
+            "description": "Reinforced-barrel copper tube terminals built for high-current heavy industrial connections requiring maximum mechanical strength and long-term reliability.",
+            "keySpecs": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Voltage Rating icon",
+                  "url": "/home/hero/icon-arrow-right.svg"
+                },
+                "label": "Voltage Rating",
+                "value": "Up to 1.1 kV"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Conductor icon",
+                  "url": "/home/hero/icon-pin.svg"
+                },
+                "label": "Conductor",
+                "value": "Annealed Copper"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Barrel Wall icon",
+                  "url": "/home/hero/icon-search.svg"
+                },
+                "label": "Barrel Wall",
+                "value": "Extra Heavy"
+              }
+            ],
+            "idealFor": [
+              "Heavy industry",
+              "Steel & metal plants",
+              "Mining",
+              "Marine"
+            ],
+            "primaryButton": {
+              "text": "Find Dealer",
+              "href": "/dealers",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-pin.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            },
+            "secondaryButton": {
+              "text": "Contact Sales",
+              "href": "/contact",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-phone.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          },
+          "downloads": {
+            "heading": "Everything your engineers need.",
+            "items": [
+              {
+                "title": "Technical Datasheet",
+                "file": {
+                  "assetId": "",
+                  "alt": "Technical Datasheet",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              }
+            ]
+          },
+          "specs": {
+            "heading": "Built to perform.",
+            "items": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Voltage Grade icon",
+                  "url": "/products/check.svg"
+                },
+                "label": "Voltage Grade",
+                "value": "1100 V"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Conductor icon",
+                  "url": "/products/file.svg"
+                },
+                "label": "Conductor",
+                "value": "Annealed Copper (Class 2)"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Insulation icon",
+                  "url": "/products/chevron.svg"
+                },
+                "label": "Insulation",
+                "value": "FR-XLPE"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Temperature icon",
+                  "url": "/products/chevron-down.svg"
+                },
+                "label": "Temperature",
+                "value": "90°C continuous · 250°C short"
+              }
+            ]
+          },
+          "deployed": {
+            "heading": "Where this product is deployed.",
+            "items": [
+              {
+                "title": "Industrial Installations",
+                "description": "Heavy-duty solutions designed for factories, plants, and industrial environments where durability, load handling, and operational reliability matter most.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Industrial installation using heavy duty copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Industrial%20Installations"
+                }
+              },
+              {
+                "title": "Utilities",
+                "description": "Robust terminations for power distribution infrastructure serving utility networks.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Utility installation using heavy duty copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Utilities"
+                }
+              }
+            ]
+          },
+          "safety": {
+            "heading": "Engineered for safety and longevity.",
+            "bullets": [
+              "Annealed bare copper conductor for high conductivity",
+              "Extra heavy barrel wall for maximum crimp strength",
+              "Compliant with IS 7098 and IEC 60502"
+            ],
+            "image": {
+              "assetId": "",
+              "alt": "Safety testing of heavy duty copper tube terminal",
+              "url": "https://dummyimage.com/720x480/ececec/9a9a9a.png&text=Safety%20Tested"
+            },
+            "certifications": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "ISO 9001:2015 logo",
+                  "url": "/home/trust/icon-iso.svg"
+                },
+                "label": "ISO 9001:2015"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "BIS Certified logo",
+                  "url": "/home/trust/icon-bis.svg"
+                },
+                "label": "BIS Certified"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Copper Tube Terminal DIN 46235",
+          "slug": "copper-tube-terminal-din-46235",
+          "subtitle": "DIN 46235",
+          "isPublished": true,
+          "seo": {
+            "title": "Copper Tube Terminal DIN 46235",
+            "description": "DIN 46235 compliant copper tube terminals for interchangeable, standards-based industrial and utility terminations.",
+            "canonical": "",
+            "noindex": false,
+            "ogImage": {
+              "assetId": "",
+              "alt": "Copper Tube Terminal DIN 46235 product image",
+              "url": "https://dummyimage.com/1200x630/ececec/9a9a9a.png&text=Copper%20Tube%20Terminal%20DIN%2046235"
+            }
+          },
+          "hero": {
+            "image": {
+              "assetId": "",
+              "alt": "Copper Tube Terminal DIN 46235 hero image",
+              "url": "https://dummyimage.com/900x600/ececec/9a9a9a.png&text=Copper%20Tube%20Terminal%20DIN%2046235"
+            },
+            "description": "DIN 46235 dimensioned copper tube terminals for interchangeable, standards-compliant terminations across industrial and utility installations.",
+            "keySpecs": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Voltage Rating icon",
+                  "url": "/home/hero/icon-arrow-right.svg"
+                },
+                "label": "Voltage Rating",
+                "value": "Up to 1.1 kV"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Conductor icon",
+                  "url": "/home/hero/icon-pin.svg"
+                },
+                "label": "Conductor",
+                "value": "Annealed Copper"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Standard icon",
+                  "url": "/home/hero/icon-search.svg"
+                },
+                "label": "Standard",
+                "value": "DIN 46235"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Hole Pattern icon",
+                  "url": "/home/quick-access/icon-download.svg"
+                },
+                "label": "Hole Pattern",
+                "value": "Standard DIN Spacing"
+              }
+            ],
+            "idealFor": [
+              "Power plants",
+              "Switchgear manufacturers",
+              "Panel builders"
+            ],
+            "primaryButton": {
+              "text": "Find Dealer",
+              "href": "/dealers",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-pin.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            },
+            "secondaryButton": {
+              "text": "Contact Sales",
+              "href": "/contact",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-phone.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          },
+          "downloads": {
+            "heading": "Everything your engineers need.",
+            "items": [
+              {
+                "title": "Technical Datasheet",
+                "file": {
+                  "assetId": "",
+                  "alt": "Technical Datasheet",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              },
+              {
+                "title": "BIS Test Report",
+                "file": {
+                  "assetId": "",
+                  "alt": "BIS Test Report",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              }
+            ]
+          },
+          "specs": {
+            "heading": "Built to perform.",
+            "items": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Voltage Grade icon",
+                  "url": "/products/check.svg"
+                },
+                "label": "Voltage Grade",
+                "value": "1100 V"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Conductor icon",
+                  "url": "/products/file.svg"
+                },
+                "label": "Conductor",
+                "value": "Annealed Copper (Class 2)"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Insulation icon",
+                  "url": "/products/chevron.svg"
+                },
+                "label": "Insulation",
+                "value": "FR-XLPE"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Standard icon",
+                  "url": "/products/chevron-down.svg"
+                },
+                "label": "Standard",
+                "value": "DIN 46235"
+              }
+            ]
+          },
+          "deployed": {
+            "heading": "Where this product is deployed.",
+            "items": [
+              {
+                "title": "Industrial Installations",
+                "description": "Heavy-duty solutions designed for factories, plants, and industrial environments where durability, load handling, and operational reliability matter most.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Industrial installation using DIN 46235 copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Industrial%20Installations"
+                }
+              },
+              {
+                "title": "Infrastructure",
+                "description": "Standards-based terminations for switchgear and panel-building applications across infrastructure projects.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Infrastructure installation using DIN 46235 copper tube terminals",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Infrastructure"
+                }
+              }
+            ]
+          },
+          "safety": {
+            "heading": "Engineered for safety and longevity.",
+            "bullets": [
+              "Annealed bare copper conductor for high conductivity",
+              "Dimensioned to DIN 46235 for interchangeability",
+              "Compliant with IS 7098 and IEC 60502"
+            ],
+            "image": {
+              "assetId": "",
+              "alt": "Safety testing of DIN 46235 copper tube terminal",
+              "url": "https://dummyimage.com/720x480/ececec/9a9a9a.png&text=Safety%20Tested"
+            },
+            "certifications": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "ISO 9001:2015 logo",
+                  "url": "/home/trust/icon-iso.svg"
+                },
+                "label": "ISO 9001:2015"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "RoHS Compliant logo",
+                  "url": "/home/trust/icon-rohs.svg"
+                },
+                "label": "RoHS Compliant"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cable Glands",
+      "slug": "cable-glands",
+      "description": "Brass and nylon cable glands providing reliable cable entry, strain relief and ingress protection for demanding environments.",
+      "products": [
+        {
+          "name": "Brass Cable Gland Single Compression",
+          "slug": "brass-cable-gland-single-compression",
+          "subtitle": "Single Compression",
+          "isPublished": true,
+          "seo": {
+            "title": "Brass Cable Gland Single Compression",
+            "description": "Single compression brass cable glands for reliable cable entry and strain relief in industrial enclosures.",
+            "canonical": "",
+            "noindex": false,
+            "ogImage": {
+              "assetId": "",
+              "alt": "Brass Cable Gland Single Compression product image",
+              "url": "https://dummyimage.com/1200x630/ececec/9a9a9a.png&text=Brass%20Cable%20Gland%20Single%20Compression"
+            }
+          },
+          "hero": {
+            "image": {
+              "assetId": "",
+              "alt": "Brass Cable Gland Single Compression hero image",
+              "url": "https://dummyimage.com/900x600/ececec/9a9a9a.png&text=Brass%20Cable%20Gland%20Single%20Compression"
+            },
+            "description": "Single compression brass cable glands providing secure cable entry, strain relief and ingress protection for general industrial enclosures.",
+            "keySpecs": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Material icon",
+                  "url": "/home/hero/icon-arrow-right.svg"
+                },
+                "label": "Material",
+                "value": "Nickel-Plated Brass"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Ingress Protection icon",
+                  "url": "/home/hero/icon-pin.svg"
+                },
+                "label": "Ingress Protection",
+                "value": "IP66 / IP68"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Thread icon",
+                  "url": "/home/hero/icon-search.svg"
+                },
+                "label": "Thread",
+                "value": "Metric / NPT"
+              }
+            ],
+            "idealFor": [
+              "Panel builders",
+              "Industrial automation",
+              "General manufacturing"
+            ],
+            "primaryButton": {
+              "text": "Find Dealer",
+              "href": "/dealers",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-pin.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            },
+            "secondaryButton": {
+              "text": "Contact Sales",
+              "href": "/contact",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-phone.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          },
+          "downloads": {
+            "heading": "Everything your engineers need.",
+            "items": [
+              {
+                "title": "Technical Datasheet",
+                "file": {
+                  "assetId": "",
+                  "alt": "Technical Datasheet",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              }
+            ]
+          },
+          "specs": {
+            "heading": "Built to perform.",
+            "items": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Material icon",
+                  "url": "/products/check.svg"
+                },
+                "label": "Material",
+                "value": "Nickel-Plated Brass"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Ingress Protection icon",
+                  "url": "/products/file.svg"
+                },
+                "label": "Ingress Protection",
+                "value": "IP66 / IP68"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Thread Type icon",
+                  "url": "/products/chevron.svg"
+                },
+                "label": "Thread Type",
+                "value": "Metric / NPT"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Temperature icon",
+                  "url": "/products/chevron-down.svg"
+                },
+                "label": "Temperature",
+                "value": "-20°C to 100°C"
+              }
+            ]
+          },
+          "deployed": {
+            "heading": "Where this product is deployed.",
+            "items": [
+              {
+                "title": "Industrial Installations",
+                "description": "Heavy-duty solutions designed for factories, plants, and industrial environments where durability, load handling, and operational reliability matter most.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Industrial installation using brass single compression cable glands",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Industrial%20Installations"
+                }
+              },
+              {
+                "title": "Utilities",
+                "description": "Secure cable entry for control panels and enclosures across utility networks.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Utility installation using brass single compression cable glands",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Utilities"
+                }
+              }
+            ]
+          },
+          "safety": {
+            "heading": "Engineered for safety and longevity.",
+            "bullets": [
+              "Nickel-plated brass body for corrosion resistance",
+              "Reliable IP66/IP68 sealing performance",
+              "Compliant with IS/IEC 62444"
+            ],
+            "image": {
+              "assetId": "",
+              "alt": "Safety testing of brass single compression cable gland",
+              "url": "https://dummyimage.com/720x480/ececec/9a9a9a.png&text=Safety%20Tested"
+            },
+            "certifications": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "ISO 9001:2015 logo",
+                  "url": "/home/trust/icon-iso.svg"
+                },
+                "label": "ISO 9001:2015"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "BIS Certified logo",
+                  "url": "/home/trust/icon-bis.svg"
+                },
+                "label": "BIS Certified"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Brass Cable Gland Double Compression",
+          "slug": "brass-cable-gland-double-compression",
+          "subtitle": "Double Compression",
+          "isPublished": true,
+          "seo": {
+            "title": "Brass Cable Gland Double Compression",
+            "description": "Double compression brass cable glands delivering enhanced strain relief and sealing for demanding outdoor and industrial applications.",
+            "canonical": "",
+            "noindex": false,
+            "ogImage": {
+              "assetId": "",
+              "alt": "Brass Cable Gland Double Compression product image",
+              "url": "https://dummyimage.com/1200x630/ececec/9a9a9a.png&text=Brass%20Cable%20Gland%20Double%20Compression"
+            }
+          },
+          "hero": {
+            "image": {
+              "assetId": "",
+              "alt": "Brass Cable Gland Double Compression hero image",
+              "url": "https://dummyimage.com/900x600/ececec/9a9a9a.png&text=Brass%20Cable%20Gland%20Double%20Compression"
+            },
+            "description": "Double compression brass cable glands offering enhanced strain relief and sealing performance for outdoor and heavy industrial applications.",
+            "keySpecs": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Material icon",
+                  "url": "/home/hero/icon-arrow-right.svg"
+                },
+                "label": "Material",
+                "value": "Nickel-Plated Brass"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Ingress Protection icon",
+                  "url": "/home/hero/icon-pin.svg"
+                },
+                "label": "Ingress Protection",
+                "value": "IP68"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Compression icon",
+                  "url": "/home/hero/icon-search.svg"
+                },
+                "label": "Compression",
+                "value": "Inner & Outer Seal"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Thread icon",
+                  "url": "/home/quick-access/icon-download.svg"
+                },
+                "label": "Thread",
+                "value": "Metric / NPT"
+              }
+            ],
+            "idealFor": [
+              "Oil & gas",
+              "Power plants",
+              "Outdoor installations"
+            ],
+            "primaryButton": {
+              "text": "Find Dealer",
+              "href": "/dealers",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-pin.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            },
+            "secondaryButton": {
+              "text": "Contact Sales",
+              "href": "/contact",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-phone.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          },
+          "downloads": {
+            "heading": "Everything your engineers need.",
+            "items": [
+              {
+                "title": "Technical Datasheet",
+                "file": {
+                  "assetId": "",
+                  "alt": "Technical Datasheet",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              },
+              {
+                "title": "Installation Guide",
+                "file": {
+                  "assetId": "",
+                  "alt": "Installation Guide",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              }
+            ]
+          },
+          "specs": {
+            "heading": "Built to perform.",
+            "items": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Material icon",
+                  "url": "/products/check.svg"
+                },
+                "label": "Material",
+                "value": "Nickel-Plated Brass"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Ingress Protection icon",
+                  "url": "/products/file.svg"
+                },
+                "label": "Ingress Protection",
+                "value": "IP68"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Compression icon",
+                  "url": "/products/chevron.svg"
+                },
+                "label": "Compression",
+                "value": "Inner & Outer Seal"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Temperature icon",
+                  "url": "/products/chevron-down.svg"
+                },
+                "label": "Temperature",
+                "value": "-20°C to 100°C"
+              }
+            ]
+          },
+          "deployed": {
+            "heading": "Where this product is deployed.",
+            "items": [
+              {
+                "title": "Industrial Installations",
+                "description": "Heavy-duty solutions designed for factories, plants, and industrial environments where durability, load handling, and operational reliability matter most.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Industrial installation using brass double compression cable glands",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Industrial%20Installations"
+                }
+              },
+              {
+                "title": "Renewables",
+                "description": "Weatherproof cable entry for solar and wind installations exposed to the elements.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Renewable energy installation using brass double compression cable glands",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Renewables"
+                }
+              }
+            ]
+          },
+          "safety": {
+            "heading": "Engineered for safety and longevity.",
+            "bullets": [
+              "Nickel-plated brass body for corrosion resistance",
+              "Dual seal design for superior strain relief",
+              "Compliant with IS/IEC 62444"
+            ],
+            "image": {
+              "assetId": "",
+              "alt": "Safety testing of brass double compression cable gland",
+              "url": "https://dummyimage.com/720x480/ececec/9a9a9a.png&text=Safety%20Tested"
+            },
+            "certifications": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "ISO 9001:2015 logo",
+                  "url": "/home/trust/icon-iso.svg"
+                },
+                "label": "ISO 9001:2015"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "RoHS Compliant logo",
+                  "url": "/home/trust/icon-rohs.svg"
+                },
+                "label": "RoHS Compliant"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Nylon Cable Gland IP68",
+          "slug": "nylon-cable-gland-ip68",
+          "subtitle": "IP68",
+          "isPublished": true,
+          "seo": {
+            "title": "Nylon Cable Gland IP68",
+            "description": "Lightweight IP68-rated nylon cable glands for corrosion-free cable entry in chemical and washdown environments.",
+            "canonical": "",
+            "noindex": false,
+            "ogImage": {
+              "assetId": "",
+              "alt": "Nylon Cable Gland IP68 product image",
+              "url": "https://dummyimage.com/1200x630/ececec/9a9a9a.png&text=Nylon%20Cable%20Gland%20IP68"
+            }
+          },
+          "hero": {
+            "image": {
+              "assetId": "",
+              "alt": "Nylon Cable Gland IP68 hero image",
+              "url": "https://dummyimage.com/900x600/ececec/9a9a9a.png&text=Nylon%20Cable%20Gland%20IP68"
+            },
+            "description": "Lightweight, corrosion-free nylon cable glands rated IP68 for chemical processing, food & beverage and washdown environments.",
+            "keySpecs": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Material icon",
+                  "url": "/home/hero/icon-arrow-right.svg"
+                },
+                "label": "Material",
+                "value": "Polyamide (Nylon 66)"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Ingress Protection icon",
+                  "url": "/home/hero/icon-pin.svg"
+                },
+                "label": "Ingress Protection",
+                "value": "IP68"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Weight icon",
+                  "url": "/home/hero/icon-search.svg"
+                },
+                "label": "Weight",
+                "value": "Lightweight"
+              }
+            ],
+            "idealFor": [
+              "Chemical processing",
+              "Food & beverage",
+              "Washdown environments"
+            ],
+            "primaryButton": {
+              "text": "Find Dealer",
+              "href": "/dealers",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-pin.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            },
+            "secondaryButton": {
+              "text": "Contact Sales",
+              "href": "/contact",
+              "withIcon": true,
+              "icon": {
+                "assetId": "",
+                "alt": "",
+                "url": "/products/icon-phone.svg"
+              },
+              "iconPosition": "left",
+              "openInNewTab": false
+            }
+          },
+          "downloads": {
+            "heading": "Everything your engineers need.",
+            "items": [
+              {
+                "title": "Technical Datasheet",
+                "file": {
+                  "assetId": "",
+                  "alt": "Technical Datasheet",
+                  "url": "/products/sample-datasheet.pdf"
+                }
+              }
+            ]
+          },
+          "specs": {
+            "heading": "Built to perform.",
+            "items": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Material icon",
+                  "url": "/products/check.svg"
+                },
+                "label": "Material",
+                "value": "Polyamide (Nylon 66)"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Ingress Protection icon",
+                  "url": "/products/file.svg"
+                },
+                "label": "Ingress Protection",
+                "value": "IP68"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Flame Rating icon",
+                  "url": "/products/chevron.svg"
+                },
+                "label": "Flame Rating",
+                "value": "UL94 V-2"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "Temperature icon",
+                  "url": "/products/chevron-down.svg"
+                },
+                "label": "Temperature",
+                "value": "-20°C to 80°C"
+              }
+            ]
+          },
+          "deployed": {
+            "heading": "Where this product is deployed.",
+            "items": [
+              {
+                "title": "Industrial Installations",
+                "description": "Heavy-duty solutions designed for factories, plants, and industrial environments where durability, load handling, and operational reliability matter most.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Industrial installation using nylon IP68 cable glands",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Industrial%20Installations"
+                }
+              },
+              {
+                "title": "Infrastructure",
+                "description": "Corrosion-free cable entry for water treatment and public infrastructure projects.",
+                "image": {
+                  "assetId": "",
+                  "alt": "Infrastructure installation using nylon IP68 cable glands",
+                  "url": "https://dummyimage.com/640x480/ececec/9a9a9a.png&text=Infrastructure"
+                }
+              }
+            ]
+          },
+          "safety": {
+            "heading": "Engineered for safety and longevity.",
+            "bullets": [
+              "Corrosion-free polyamide construction",
+              "Reliable IP68 sealing performance",
+              "UL94 V-2 flame-retardant rated"
+            ],
+            "image": {
+              "assetId": "",
+              "alt": "Safety testing of nylon IP68 cable gland",
+              "url": "https://dummyimage.com/720x480/ececec/9a9a9a.png&text=Safety%20Tested"
+            },
+            "certifications": [
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "ISO 9001:2015 logo",
+                  "url": "/home/trust/icon-iso.svg"
+                },
+                "label": "ISO 9001:2015"
+              },
+              {
+                "icon": {
+                  "assetId": "",
+                  "alt": "BIS Certified logo",
+                  "url": "/home/trust/icon-bis.svg"
+                },
+                "label": "BIS Certified"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

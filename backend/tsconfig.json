@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "./build",
+    "lib": ["es6", "es2020", "dom"],
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "rootDir": ".",
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@config/*": ["./src/config/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@models/*": ["./src/models/*"],
+      "@src/*": ["./src/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts"],
+  "ts-node": {
+    "files": true
+  }
+}
