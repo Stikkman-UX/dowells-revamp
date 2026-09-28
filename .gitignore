@@ -1,0 +1,4 @@
+node_modules
+Docker-compose.yaml
+id_rsa
+id_rsa.pub
