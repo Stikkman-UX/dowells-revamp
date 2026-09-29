@@ -239,42 +239,51 @@ export default function IndustriesSlider({ slides }: IndustriesSliderProps) {
                 aria-label={
                   count > 1 ? `${slide.title} (${(i % count) + 1} of ${count})` : slide.title
                 }
-                // `isolate` gives every slide its own stacking context so the
-                // media can never fall behind the section background. Inactive
-                // slides shrink to Figma's 1068x411 (x0.865) away from the
-                // active one, keeping the 41px gap between facing edges.
-                className={`group relative isolate flex h-[22rem] w-[var(--slide-w)] shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[1.125rem] lg:aspect-[1234/475] lg:h-auto ${
-                  recentring
-                    ? "transition-none"
-                    : "transition-[opacity,transform] duration-300 ease-out motion-reduce:transition-none"
-                } ${
-                  isActive
-                    ? "opacity-100"
-                    : `opacity-60 lg:scale-[0.865] ${i < active ? "lg:origin-right" : "lg:origin-left"}`
-                }`}
+                // The link is the untransformed scroll-snap target, so both
+                // snapping and scrollToIndex() measure its true layout box.
+                className="group relative flex h-[22rem] w-[var(--slide-w)] shrink-0 snap-center rounded-[1.125rem] lg:aspect-[1234/475] lg:h-auto"
               >
-                <CmsMedia
-                  media={slide.image}
-                  alt={slide.title}
-                  sizes="(min-width: 1024px) 77.125rem, 85vw"
-                />
-                <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/0 to-black/45" />
+                {/* Visual card. `isolate` gives every slide its own stacking
+                    context so the media can never fall behind the section
+                    background. Inactive slides shrink to Figma's 1068x411
+                    (x0.865) away from the active one, keeping the 41px gap
+                    between facing edges. The scale lives here, not on the
+                    link: on the snap target it skewed the measured centre,
+                    leaving every slide after the first off-centre. */}
+                <div
+                  className={`relative isolate flex w-full flex-col justify-end overflow-hidden rounded-[1.125rem] ${
+                    recentring
+                      ? "transition-none"
+                      : "transition-[opacity,transform] duration-300 ease-out motion-reduce:transition-none"
+                  } ${
+                    isActive
+                      ? "opacity-100"
+                      : `opacity-60 lg:scale-[0.865] ${i < active ? "lg:origin-right" : "lg:origin-left"}`
+                  }`}
+                >
+                  <CmsMedia
+                    media={slide.image}
+                    alt={slide.title}
+                    sizes="(min-width: 1024px) 77.125rem, 85vw"
+                  />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/0 to-black/45" />
 
-                <div className="relative z-10 flex items-end justify-between gap-6 p-6 lg:p-9">
-                  <div className="flex max-w-[35rem] flex-col gap-2">
-                    <h3 className="text-2xl font-medium leading-tight text-white lg:text-[2rem]">
-                      {slide.title}
-                    </h3>
-                    <p className="text-sm text-white/80 lg:max-w-[35rem] lg:text-base">
-                      {slide.description}
-                    </p>
+                  <div className="relative z-10 flex items-end justify-between gap-6 p-6 lg:p-9">
+                    <div className="flex max-w-[35rem] flex-col gap-2">
+                      <h3 className="text-2xl font-medium leading-tight text-white lg:text-[2rem]">
+                        {slide.title}
+                      </h3>
+                      <p className="text-sm text-white/80 lg:max-w-[35rem] lg:text-base">
+                        {slide.description}
+                      </p>
+                    </div>
+                    <span
+                      aria-hidden="true"
+                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/15 backdrop-blur transition-transform duration-300 group-hover:translate-x-1 lg:h-12 lg:w-12"
+                    >
+                      <CmsIcon media={ARROW_ICON} size={16} className="text-white" />
+                    </span>
                   </div>
-                  <span
-                    aria-hidden="true"
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/15 backdrop-blur transition-transform duration-300 group-hover:translate-x-1 lg:h-12 lg:w-12"
-                  >
-                    <CmsIcon media={ARROW_ICON} size={16} className="text-white" />
-                  </span>
                 </div>
               </a>
             );

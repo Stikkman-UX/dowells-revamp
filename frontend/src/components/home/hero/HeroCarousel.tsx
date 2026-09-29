@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { CustomEase } from "gsap/CustomEase";
 import { useGSAP } from "@gsap/react";
@@ -26,11 +26,13 @@ const ARROW_ICON = {
   fileSize: 0,
 };
 
-const HOLD_SECONDS = 3;
+const HOLD_SECONDS = 6;
 const WIPE_SECONDS = 1.5;
 const REDUCED_SECONDS = 0.3;
 /** Cap on how long an advance waits for the incoming image to load. */
 const LOAD_TIMEOUT_MS = 1000;
+/** Cap on how long a first-slide video may keep the hero dark before its poster is shown instead. */
+const INTRO_VIDEO_TIMEOUT_MS = 8000;
 
 type HeroCarouselProps = { data: HeroData };
 
@@ -41,7 +43,7 @@ type HeroCarouselProps = { data: HeroData };
  * right Smart Animate transition: the incoming item's oversized media box
  * starts scaled down and shifted right, clipped to a 0-width reveal at the
  * right edge, then both clip and media scale animate to their Figma
- * end-state over 1.5s (ease cubic-bezier(0.42,0,0.58,1)), after a 3s hold.
+ * end-state over 1.5s (ease cubic-bezier(0.42,0,0.58,1)), after a 5s hold.
  * Every advance (including the wrap from the last item back to the first)
  * uses this same wipe.
  *
@@ -65,6 +67,13 @@ export default function HeroCarousel({ data }: HeroCarouselProps) {
   const holdTweenRef = useRef<gsap.core.Tween | null>(null);
 
   const [activeIndex, setActiveIndex] = useState(0);
+
+  // A first-slide video gets the network to itself: it is server-rendered
+  // autoplaying with no poster, and stays hidden (the section's dark
+  // background shows) until it is actually playing. Autoplay and the
+  // preloading of later slides wait for it too.
+  const introIsVideo = carousel[0]?.media?.fileType === "Video";
+  const [introReady, setIntroReady] = useState(!introIsVideo);
 
   // Declared before useGSAP so the gate is seeded before the first armHold().
   const { allowedRef, reducedMotionRef, userPaused, toggleUserPause } = useAutoplayGate(
@@ -124,6 +133,8 @@ export default function HeroCarousel({ data }: HeroCarouselProps) {
     const el = getMediaEl(mediaRefs.current[index]);
     if (el instanceof HTMLImageElement && el.loading === "lazy") {
       el.loading = "eager";
+    } else if (el instanceof HTMLVideoElement && el.preload === "none") {
+      el.preload = "auto";
     }
   }
 
@@ -232,17 +243,50 @@ export default function HeroCarousel({ data }: HeroCarouselProps) {
     }
   }
 
+  // Reveals a first-slide video once it is playing. Falls back to its
+  // poster when it can't play: reduced motion, autoplay blocked (e.g. iOS
+  // Low Power Mode), a load error, or no playback within the timeout.
+  useEffect(() => {
+    const video = videoRefs.current[0];
+    if (!introIsVideo || !video) return;
+
+    const reveal = () => setIntroReady(true);
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      video.pause();
+      reveal();
+      return;
+    }
+    // Autoplay may already have started before hydration.
+    if (!video.paused && video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
+      reveal();
+      return;
+    }
+
+    const timer = setTimeout(reveal, INTRO_VIDEO_TIMEOUT_MS);
+    video.addEventListener("playing", reveal);
+    video.addEventListener("error", reveal);
+    video.play().catch(reveal);
+
+    return () => {
+      clearTimeout(timer);
+      video.removeEventListener("playing", reveal);
+      video.removeEventListener("error", reveal);
+    };
+  }, [introIsVideo]);
+
   // Declared after the functions it calls, so the autoplay loop is fully
-  // defined before GSAP arms the first hold.
+  // defined before GSAP arms the first hold. Waits for a first-slide video
+  // so its hold is counted from when it is actually visible.
   useGSAP(
     () => {
-      if (count <= 1) return;
+      if (count <= 1 || !introReady) return;
       armHold();
       return () => {
         holdTweenRef.current?.kill();
       };
     },
-    { scope: sectionRef, dependencies: [count] }
+    { scope: sectionRef, dependencies: [count, introReady] }
   );
 
   const showControls = count > 1;
@@ -278,13 +322,23 @@ export default function HeroCarousel({ data }: HeroCarouselProps) {
               <CmsMedia
                 ref={setVideoRef(i)}
                 media={item.media}
-                poster={item.poster}
+                // No poster for an intro video still loading: it would be
+                // fetched and shown first, competing with the video itself.
+                poster={isFirst && !introReady ? null : item.poster}
                 alt={item.media?.alt}
                 sizes="160vw"
                 preload={isFirst}
-                // Item 1 is due 3s after load, too soon to rely on warmUp();
-                // the rest stay lazy and are warmed one hold ahead of use.
-                loading={i === 1 ? "eager" : undefined}
+                autoPlay={isFirst}
+                className={
+                  isFirst && introIsVideo
+                    ? `transition-opacity duration-500 ${introReady ? "opacity-100" : "opacity-0"}`
+                    : ""
+                }
+                // Item 1 is due 5s after load, too soon to rely on warmUp() —
+                // unless an intro video is loading, which gets the network
+                // to itself. The rest stay lazy and are warmed one hold
+                // ahead of use.
+                loading={i === 1 && !introIsVideo ? "eager" : undefined}
               />
             </div>
           </div>

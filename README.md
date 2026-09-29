@@ -1,0 +1,1 @@
+[![Deployment on process](https://github.com/Stikkman-UX/dowells-revamp/actions/workflows/deploy.yaml/badge.svg)](https://github.com/Stikkman-UX/dowells-revamp/actions/workflows/deploy.yaml)

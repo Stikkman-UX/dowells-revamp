@@ -18,6 +18,8 @@ type CmsMediaProps = {
   preload?: boolean;
   /** Forwarded to next/image. Use "eager" for media that is in view but must not compete with the LCP image. */
   loading?: "eager" | "lazy";
+  /** Video only: start fetching immediately and play as soon as the browser can (muted). */
+  autoPlay?: boolean;
 };
 
 /**
@@ -27,7 +29,7 @@ type CmsMediaProps = {
  * - `image/svg+xml` -> plain `<img>` (SVGs are never optimized/inlined per
  *   the contract's security rules)
  * - other images -> `next/image`
- * - Video -> `<video>` (muted/looping/no-autoplay-preload), ref-forwarded so
+ * - Video -> `<video>` (muted/looping; no preload unless `autoPlay`), ref-forwarded so
  *   callers can drive playback (e.g. from GSAP or on hover).
  */
 export const CmsMedia = forwardRef<HTMLVideoElement, CmsMediaProps>(
@@ -44,6 +46,7 @@ export const CmsMedia = forwardRef<HTMLVideoElement, CmsMediaProps>(
       objectFit = "cover",
       preload,
       loading,
+      autoPlay = false,
     },
     ref
   ) {
@@ -68,7 +71,8 @@ export const CmsMedia = forwardRef<HTMLVideoElement, CmsMediaProps>(
           muted
           playsInline
           loop
-          preload="none"
+          autoPlay={autoPlay}
+          preload={autoPlay ? "auto" : "none"}
           poster={poster?.url}
           className={`${fillClass} ${objectClass} ${className}`.trim()}
         >
