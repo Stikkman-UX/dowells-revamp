@@ -3,7 +3,7 @@
 import { useId, useRef, useState, type KeyboardEvent } from "react";
 import type { ProductCategoriesData, ResolvedMedia } from "@/types/cms";
 import { CmsMedia } from "@/components/ui/CmsMedia";
-import { CmsButton } from "@/components/ui/CmsButton";
+import { CmsButton, ctaVariant } from "@/components/ui/CmsButton";
 import { CmsIcon } from "@/components/ui/CmsIcon";
 
 type Category = ProductCategoriesData["categories"][number];
@@ -77,6 +77,8 @@ export default function CategoryTabs({ categories }: CategoryTabsProps) {
       <div className="relative order-2 min-h-[26rem] overflow-hidden rounded-lg lg:order-1 lg:min-h-0">
         {categories.map((category, index) => {
           const active = index === activeIndex;
+          // Sections saved before the style picker existed have no variant.
+          const buttonVariant = category.button.variant ?? "white";
           return (
             <div
               key={category.name}
@@ -107,8 +109,12 @@ export default function CategoryTabs({ categories }: CategoryTabsProps) {
                 <p className="max-w-[26rem] text-base text-white/80">{category.description}</p>
                 <CmsButton
                   button={category.button}
-                  variant="secondary"
-                  className="mt-2 border-transparent bg-white text-ink hover:bg-white/90"
+                  variant={ctaVariant(buttonVariant)}
+                  className={
+                    buttonVariant === "white"
+                      ? "mt-2 border-transparent bg-white text-ink hover:bg-white/90"
+                      : "mt-2"
+                  }
                 />
               </div>
             </div>

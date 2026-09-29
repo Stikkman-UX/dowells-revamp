@@ -16,8 +16,8 @@ npm run typecheck    # tsc --noEmit — meaningful: strict is on and @types/expr
 npm run build        # tsc -> build/
 npm start            # production: build/src/index.js with module-alias registered
 npm run seed:admin   # idempotent upsert of the Admin user from ADMIN_SEED_* (re-hashes the password every run)
-npm run seed:home -- [--content ./seed/content.json] [--assets-dir ../frontend/public] [--force]
-npm run seed:products -- [--content ./seed/products.json] [--assets-dir ../frontend/public] [--force]   # sample categories/products; images fetched from dummyimage.com and uploaded through AssetService
+npm run seed:home -- [--content ./seed/content.json] [--assets-dir ./seed/assets] [--force]
+npm run seed:products -- [--content ./seed/products.json] [--assets-dir ./seed/assets] [--force]   # sample categories/products; images fetched from dummyimage.com and uploaded through AssetService
 ```
 
 There is no lint script and no test suite. There is no registration endpoint by design — admins only exist via `seed:admin`.

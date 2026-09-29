@@ -1,30 +1,36 @@
 "use client";
 
-import type { Button as CmsButtonData } from "@/types/cms";
+import type { Button as CmsButtonData, CtaButton } from "@/types/cms";
 import type { Field, FieldProps } from "../types";
 import { blankButton } from "../types";
 import { Input } from "@/components/admin/ui/Input";
 import { Switch } from "@/components/admin/ui/Switch";
-import { CmsButton } from "@/components/ui/CmsButton";
+import { CmsButton, ctaVariant } from "@/components/ui/CmsButton";
 import { MediaField } from "./MediaField";
 import { fieldDomId } from "../path";
 import { FieldError } from "./shared";
 
 const ICON_FIELD: Field = { name: "icon", label: "Icon (SVG)", kind: "media", accept: "svg" };
 
-/** THE reusable Button editor: text, href, withIcon, icon (SVG), iconPosition, openInNewTab. */
+/**
+ * THE reusable Button editor: text, href, withIcon, icon (SVG), iconPosition,
+ * openInNewTab — plus the red/white style when the field sets `withVariant`.
+ */
 export function ButtonField({ field, value, onChange, path, errors }: FieldProps) {
   if (field.kind !== "button") return null;
-  const button: CmsButtonData =
-    value && typeof value === "object" ? (value as CmsButtonData) : blankButton();
+  const button: CtaButton =
+    value && typeof value === "object" ? (value as CtaButton) : { ...blankButton(), variant: "white" };
+  // Buttons saved before the style existed have no variant; they render white.
+  const variant = button.variant ?? "white";
 
-  function set<K extends keyof CmsButtonData>(key: K, v: CmsButtonData[K]) {
+  function set<K extends keyof CtaButton>(key: K, v: CtaButton[K]) {
     onChange({ ...button, [key]: v });
   }
 
   const textId = fieldDomId(`${path}.text`);
   const hrefId = fieldDomId(`${path}.href`);
   const positionId = fieldDomId(`${path}.iconPosition`);
+  const variantId = fieldDomId(`${path}.variant`);
 
   return (
     <div>
@@ -59,6 +65,23 @@ export function ButtonField({ field, value, onChange, path, errors }: FieldProps
             <FieldError id={`${hrefId}-error`} message={errors[`${path}.href`]} />
           </div>
         </div>
+
+        {field.withVariant && (
+          <div>
+            <label htmlFor={variantId} className="mb-1 block text-xs font-medium text-grey-500">
+              Style
+            </label>
+            <select
+              id={variantId}
+              value={variant}
+              onChange={(e) => set("variant", e.target.value as CtaButton["variant"])}
+              className="rounded-md border border-grey-300 bg-white px-3 py-2 text-sm text-ink"
+            >
+              <option value="red">Red</option>
+              <option value="white">White</option>
+            </select>
+          </div>
+        )}
 
         <div className="flex flex-wrap items-center gap-4">
           <Switch checked={button.withIcon} onChange={(v) => set("withIcon", v)} label="Show icon" />
@@ -98,7 +121,7 @@ export function ButtonField({ field, value, onChange, path, errors }: FieldProps
         <div>
           <span className="mb-1 block text-xs font-medium text-grey-500">Preview</span>
           <div className="rounded-md bg-grey-50 p-4">
-            <CmsButton button={button} variant="primary" />
+            <CmsButton button={button} variant={field.withVariant ? ctaVariant(variant) : "primary"} />
           </div>
         </div>
       </div>

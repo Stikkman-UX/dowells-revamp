@@ -9,8 +9,8 @@ const API_BASE = `${API_INTERNAL_URL}/api/v1`;
 /**
  * For public, unauthenticated reads from Server Components (e.g. rendering
  * a CMS page). Never throws — any failure (network error, timeout, non-2xx
- * status, bad JSON) resolves to `null` so public pages can always fall back
- * to their built-in defaults per-section (see Rule 5 / API_CONTRACT §5).
+ * status, bad JSON) resolves to `null` so public pages still render, just
+ * without the content that couldn't be fetched.
  */
 export async function serverPublicFetch<T>(path: string): Promise<T | null> {
   try {

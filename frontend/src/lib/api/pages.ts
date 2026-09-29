@@ -8,7 +8,7 @@ import { serverApiFetch, serverPublicFetch } from "./server";
 
 // Server Components only. Client Components use `./pages.client`.
 
-/** Returns null on any failure; callers fall back to built-in defaults. */
+/** Returns null on any failure; callers render nothing for missing content. */
 export function getPublicPage<TSections extends Record<string, unknown>>(
   slug: string
 ) {

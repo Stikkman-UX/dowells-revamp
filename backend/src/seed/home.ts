@@ -26,7 +26,7 @@ import * as services from "@controllers/page/services";
  * Usage:
  *   npm run seed:home -- --content <file.json> --assets-dir <dir> [--force]
  *
- * Defaults: --content ./seed/content.json, --assets-dir ../frontend/public
+ * Defaults: --content ./seed/content.json, --assets-dir ./seed/assets
  * (both resolved relative to the current working directory, i.e. backend/
  * when run via the npm script).
  *
@@ -90,7 +90,7 @@ type CliArgs = { content: string; assetsDir: string; force: boolean };
 const parseArgs = (argv: string[]): CliArgs => {
   const args: CliArgs = {
     content: "./seed/content.json",
-    assetsDir: "../frontend/public",
+    assetsDir: "./seed/assets",
     force: false,
   };
 

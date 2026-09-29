@@ -1,5 +1,5 @@
 import type { Field } from "@/components/admin/form/types";
-import { blankButton } from "@/components/admin/form/types";
+import { blankCtaButton } from "@/components/admin/form/types";
 
 function blankCategory() {
   return {
@@ -8,7 +8,7 @@ function blankCategory() {
     badge: "",
     description: "",
     image: null,
-    button: blankButton(),
+    button: { ...blankCtaButton(), variant: "white" },
   };
 }
 
@@ -29,7 +29,7 @@ export const formConfig: Field[] = [
       { name: "badge", label: "Panel badge", kind: "text", maxLength: 50, help: "e.g. \"320+ products\"." },
       { name: "description", label: "Description", kind: "textarea", maxLength: 1000 },
       { name: "image", label: "Panel image", kind: "media", accept: "image" },
-      { name: "button", label: "Explore button", kind: "button" },
+      { name: "button", label: "Explore button", kind: "button", withVariant: true },
     ],
   },
 ];

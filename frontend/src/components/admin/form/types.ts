@@ -9,7 +9,11 @@ export type Field = Base &
     | { kind: "text" | "textarea" | "url"; maxLength?: number }
     | { kind: "highlightText" }
     | { kind: "boolean" }
-    | { kind: "button" }
+    | {
+        kind: "button";
+        /** Also let the admin pick the red/white style (stored as `CtaButton.variant`). */
+        withVariant?: boolean;
+      }
     | { kind: "select"; options: { value: string; label: string }[] }
     | { kind: "stringList"; max?: number }
     | { kind: "media"; accept: MediaAccept }

@@ -237,7 +237,7 @@ export type ProductCategoriesData = {
     badge: string;
     description: string;
     image: ResolvedMedia;
-    button: Button;
+    button: CtaButton;
   }[];
 };
 

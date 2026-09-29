@@ -1,6 +1,12 @@
 import { z } from "zod";
 import { buttonSchema, defaultButton, defaultMedia, longText, mediaSchema, shortText } from "./shared.schema";
 
+// Admin-picked colour for the panel's CTA. Defaults to "white" so sections
+// saved before the field existed keep their original look.
+const categoryButtonSchema = buttonSchema.extend({
+  variant: z.enum(["red", "white"]).default("white"),
+});
+
 // API_CONTRACT §4.5 ProductCategoriesData
 const categorySchema = z.object({
   name: shortText(200), // tab label + panel title
@@ -8,7 +14,7 @@ const categorySchema = z.object({
   badge: shortText(200), // e.g. "320+ products"
   description: longText(1000),
   image: mediaSchema,
-  button: buttonSchema,
+  button: categoryButtonSchema,
 });
 
 export const productCategoriesSchema = z.object({
@@ -29,7 +35,7 @@ export const productCategoriesDefaults = (): ProductCategoriesData => ({
       badge: "",
       description: "",
       image: defaultMedia(),
-      button: defaultButton(),
+      button: { ...defaultButton(), variant: "white" },
     },
   ],
 });
